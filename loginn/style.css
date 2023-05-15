@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+
+}
+
+.container{
+    background: url('image/bg.jpg') no-repeat center center/cover;
+    height: 800px;
+    display: flex;;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+/* login-card 22223f*/
+
+#login-card{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #22223f;
+    box-shadow: 6px 10px 10px #070775;
+    opacity: 0.9;
+}
+
+
+/* heading */
+
+h1{
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    font-size: 3.0em;
+    color: white;
+    transition: transform 2s;
+
+}
+h1:hover{
+    transform:rotate(360deg);
+}
+
+label{
+    display: flex;
+    font-size: 1.2em;
+    padding: 10px 0px;
+    color:aquamarine;
+
+}
+input{
+    color: white;
+    width: 265px;
+    padding: 7px 0px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background: transparent;
+}
+
+input:hover{
+    transition: 5s;
+}
+
+/* buttom */
+
+button{
+    margin: 26px;
+    width: 84px;
+    height: 35px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background: aquamarine;
+    border-style: none;
+    color: white;
+}
+
+button:hover{
+   
+    box-shadow: 2px 2px 10px aquamarine;
+    border-style: none;
+    cursor: pointer;
+}
+button:active{
+    background: rgb(86, 104, 98);
+}
+
+/* register */
+
+.register{
+    color: white;
+}
+
+.register a{
+    color: aquamarine;
+}
+.register a:active{
+    color: grey;
+    }
